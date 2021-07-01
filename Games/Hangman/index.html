@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hangman</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="game">
+        <div class="container">
+            <h1 class="title">Виселица</h1>
+            <p class="subtitle">Угадай слово на компьютерную тематику</p>
+            <div class="hangman">
+                <div class="hangman__tree">
+                    <div class="hangman__header body-item hide">
+                        <div class="hangman__rope"></div>
+                        <div class="hangman__head"></div>
+                    </div>
+                    <div class="hangman__body body-item hide">
+                        <div class="hangman__hand body-item hide"></div>
+                        <div class="hangman__hand hangman__hand_r body-item hide"></div>
+                    </div>
+                    <div class="hangman__foots">
+                        <div class="hangman__foot body-item hide"></div>
+                        <div class="hangman__foot hangman__foot_r body-item hide"></div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn__start" type="button">Начать</button>
+            <div class="words">
+            </div>
+        </div>
+    </div>
+    <div class="alphabet">
+        <button class="alphabet__word" type="button" value="а">а</button>
+        <button class="alphabet__word" type="button" value="б">б</button>
+        <button class="alphabet__word" type="button" value="в">в</button>
+        <button class="alphabet__word" type="button" value="г">г</button>
+        <button class="alphabet__word" type="button" value="д">д</button>
+        <button class="alphabet__word" type="button" value="е">е</button>
+        <button class="alphabet__word" type="button" value="ё">ё</button>
+        <button class="alphabet__word" type="button" value="ж">ж</button>
+        <button class="alphabet__word" type="button" value="з">з</button>
+        <button class="alphabet__word" type="button" value="и">и</button>
+        <button class="alphabet__word" type="button" value="й">й</button>
+        <button class="alphabet__word" type="button" value="к">к</button>
+        <button class="alphabet__word" type="button" value="л">л</button>
+        <button class="alphabet__word" type="button" value="м">м</button>
+        <button class="alphabet__word" type="button" value="н">н</button>
+        <button class="alphabet__word" type="button" value="о">о</button>
+        <button class="alphabet__word" type="button" value="п">п</button>
+        <button class="alphabet__word" type="button" value="р">р</button>
+        <button class="alphabet__word" type="button" value="с">с</button>
+        <button class="alphabet__word" type="button" value="т">т</button>
+        <button class="alphabet__word" type="button" value="у">у</button>
+        <button class="alphabet__word" type="button" value="ф">ф</button>
+        <button class="alphabet__word" type="button" value="х">х</button>
+        <button class="alphabet__word" type="button" value="ц">ц</button>
+        <button class="alphabet__word" type="button" value="ч">ч</button>
+        <button class="alphabet__word" type="button" value="ш">ш</button>
+        <button class="alphabet__word" type="button" value="щ">щ</button>
+        <button class="alphabet__word" type="button" value="ъ">ъ</button>
+        <button class="alphabet__word" type="button" value="ы">ы</button>
+        <button class="alphabet__word" type="button" value="ь">ь</button>
+        <button class="alphabet__word" type="button" value="э">э</button>
+        <button class="alphabet__word" type="button" value="ю">ю</button>
+        <button class="alphabet__word" type="button" value="я">я</button>
+    </div>
+    
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
