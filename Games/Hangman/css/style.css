@@ -185,8 +185,7 @@ body {
 .hangman__head {
     width: 50px;
     height: 50px;
-    background-color: rgb(95, 63, 0);
-    /* background-color: rgb(250, 221, 125); */
+    background-color: rgb(250, 221, 125);
     border-radius: 50%;
 }
 
@@ -224,7 +223,7 @@ body {
 .hangman__hand {
     width: 20px;
     height: 80px;
-    background-color: rgb(95, 63, 0);
+    background-color: rgb(250, 221, 125);
     border-radius: 20px;
     transform: rotate(20deg);
     position: absolute;
@@ -269,7 +268,7 @@ body {
 .hangman__foot {
     width: 20px;
     height: 90px;
-    background-color: rgb(95, 63, 0);
+    background-color: rgb(250, 221, 125);
     border-radius: 20px;
     transform: rotate(10deg);
     transition: all .4s ease;
@@ -309,8 +308,6 @@ body {
     opacity: 0;
 }
 
-.body {}
-
 .answer {
     display: flex;
     justify-content: center;
@@ -318,18 +315,11 @@ body {
     display: none;
 }
 
-.input {
-    border-radius: 10px;
-    border: 2px solid rgb(53, 53, 53);
-    width: 200px;
-    padding: 10px 20px;
-    margin: 0 20px;
-}
-
 .btn {
     min-width: 120px;
     margin: 40px auto;
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(100, 100, 100);
+    box-shadow: 0 0 2px rgb(100, 100, 100), 0 0 10px rgb(100, 100, 100);
     border-radius: 10px;
     color: #fff;
     padding: 10px 20px;
